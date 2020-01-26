@@ -19,7 +19,7 @@ Version `>=2.0.0` is thinking to work with React Native >= 0.60
 Install the library using either yarn:
 
 ```sh
-yarn add https://github.com/Michaelvilleneuve/react-native-document-scanner`
+yarn add https://github.com/fuchien/react-native-document-scanner
 ```
 
 and:
