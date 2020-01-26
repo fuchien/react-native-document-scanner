@@ -14,18 +14,18 @@ Live document detection library. Returns either a URI of the captured image, all
 
 Version `>=2.0.0` is thinking to work with React Native >= 0.60
 
-> Use [version `1.6.2`](https://github.com/Woonivers/react-native-document-scanner/tree/v1.6.2) if you are using React Native 0.59
+> Use [version `1.6.2`](https://github.com/fuchien/react-native-document-scanner/tree/v1.6.2) if you are using React Native 0.59
 
 Install the library using either yarn:
 
 ```sh
-yarn add @woonivers/react-native-document-scanner`
+yarn add https://github.com/Michaelvilleneuve/react-native-document-scanner`
 ```
 
-or npm:
+and:
 
 ```sh
-npm install @woonivers/react-native-document-scanner --save
+react-native link react-native-document-scanner
 ```
 
 Remember, this library uses your device's camera, **it cannot run on a simulator** and you must request **camera permission** by your own.
