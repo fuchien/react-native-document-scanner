@@ -646,6 +646,22 @@ public class OpenNoteCameraView extends JavaCameraView implements PictureCallbac
         // */
     }
 
+    @Override
+    public void onPictureTaken(byte[] data, Camera camera) {
+
+        Camera.Size pictureSize = camera.getParameters().getPictureSize();
+
+        Mat mat = new Mat(new org.opencv.core.Size(pictureSize.width, pictureSize.height), CvType.CV_8U);
+        mat.put(0, 0, data);
+
+        setImageProcessorBusy(true);
+        sendImageProcessorMessage("pictureTaken", mat);
+        camera.cancelAutoFocus();
+        safeToTakePicture = true;
+        waitSpinnerInvisible();
+
+    }
+
     // @Override
     public void onDocumentScannerTaken(byte[] data, Camera camera) {
 
