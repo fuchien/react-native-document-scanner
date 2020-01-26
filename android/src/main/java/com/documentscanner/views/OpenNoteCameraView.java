@@ -646,7 +646,7 @@ public class OpenNoteCameraView extends JavaCameraView implements PictureCallbac
         // */
     }
 
-    @Override
+    // @Override
     public void onDocumentScannerTaken(byte[] data, Camera camera) {
 
         Camera.Size pictureSize = camera.getParameters().getPictureSize();
