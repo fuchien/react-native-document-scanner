@@ -254,7 +254,7 @@ DEPENDENCIES:
   - React-RCTVibration (from `../node_modules/react-native/Libraries/Vibration`)
   - ReactCommon/jscallinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
-  - "RNPdfScanner (from `../node_modules/@woonivers/react-native-document-scanner/ios`)"
+  - "RNPdfScanner (from `../node_modules/@fuchien/react-native-document-scanner/ios`)"
   - RNPermissions (from `../node_modules/react-native-permissions`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
@@ -314,7 +314,7 @@ EXTERNAL SOURCES:
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
   RNPdfScanner:
-    :path: "../node_modules/@woonivers/react-native-document-scanner/ios"
+    :path: "../node_modules/@fuchien/react-native-document-scanner/ios"
   RNPermissions:
     :path: "../node_modules/react-native-permissions"
   Yoga:

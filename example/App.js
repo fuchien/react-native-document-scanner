@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react"
 import { View, StyleSheet, Text, TouchableOpacity, Image, Platform } from "react-native"
 import Permissions from 'react-native-permissions';
-import PDFScanner from "@woonivers/react-native-document-scanner"
+import PDFScanner from "@fuchien/react-native-document-scanner"
 
 export default function App() {
   const pdfScannerElement = useRef(null)

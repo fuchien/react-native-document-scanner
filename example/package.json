@@ -11,7 +11,7 @@
     "postinstall": "node ../scripts/examples_postinstall.js"
   },
   "dependencies": {
-    "@woonivers/react-native-document-scanner": "file:../",
+    "@fuchien/react-native-document-scanner": "file:../",
     "react": "16.9.0",
     "react-native": "0.61.1",
     "react-native-permissions": "^2.0.0"

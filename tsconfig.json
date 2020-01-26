@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@woonivers/react-native-document-scanner": ["./src/index"]
+      "@fuchien/react-native-document-scanner": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
